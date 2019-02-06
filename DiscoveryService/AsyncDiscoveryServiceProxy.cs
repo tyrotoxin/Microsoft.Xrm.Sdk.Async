@@ -151,6 +151,7 @@ namespace Microsoft.Xrm.Sdk.Client.Async
             catch
             {
                 forceClose = true;
+                throw;
             }
             finally
             {
